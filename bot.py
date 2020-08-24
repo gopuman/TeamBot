@@ -16,7 +16,7 @@ from youtube_dl import YoutubeDL
 
 url = "https://api.covid19india.org/data.json"
 
-API_KEY = os.environ["API_KEY"]
+API_KEY = environ["API_KEY"]
 
 client = commands.Bot(command_prefix = "$")
 
